@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/signup.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <script src="js/main.js"></script>
+
+
+    <title>한코딩 :: 회원가입</title>
+</head>
+<body>
+    <header>
+        <div class="layout topmenu">
+            <div><a href="index.html"><span class="logo mark"><i class="fas fa-code"></span></i><span class="logo logo-left">HAN</span><span class="logo"> Coding</span></a></div>
+
+            <div></div>
+            <div class="right-menu">
+                <ul>
+                    <li><a href="#">강의</a></li>
+                    <li><a href="articlewrite.html">게시판</a></li>
+                    <li><a href="login.html">로그인</a></li>
+                </ul>
+            </div>
+            <div class="ham-btn" id="ham-btn">
+                <a href="javascript:openSideNav()"><i class="fas fa-bars"></i></a>
+            </div>
+        </div>
+        <div class="sidenav" id="sidenav">
+            <a href="javascript:closeSideNav()">&times;</a>
+            <a href="#">강의</a>
+            <a href="articlewrite.html">게시판</a>
+            <a href="login.html">로그인</a>
+        </div>
+    </header>
+    <main>
+        <div class="signup-wrapper">
+            <h1>회원가입</h1>
+            <h2>가입하시고 웹 개발 같이 배워요!</h2>
+            <div class="signup-input-wrapper">
+                <input type="text" autocomplete="off" placeholder=" 아이디">
+                <div class="signup-info">* 영문자, 숫자 포함 6자리 이상</div>
+                <input type="text" autocomplete="off" placeholder=" 닉네임">
+                <div class="signup-info">* 닉네임을 입력해 주세요!</div>
+                <input type="password" placeholder=" 비밀번호">
+                <div class="signup-info">* 영문자, 숫자 포함 8자리 이상</div>
+                <input type="password" placeholder=" 비밀번호 확인">
+                <div class="signup-info">* 위에서 입력하신 비밀번호를 다시 입력해 주세요!</div>
+                <input type="email" placeholder=" 이메일">
+                <button type="button">회원가입</button>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <span>copyright 한코딩. All rights reserved.</span>
+    </footer>
+</body>
+</html>
