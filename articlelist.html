@@ -7,13 +7,17 @@
 
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/search.css">
+    <link rel="stylesheet" href="css/articlelist.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <script src="js/main.js"></script>
 
-    <title>한코딩 :: 아이디, 비밀번호 찾기</title>
+    <title>한코딩 :: 게시판</title>
 </head>
+
+
 <body>
+
+
     <header>
         <div class="layout topmenu">
             <div><a href="index.html"><span class="logo mark"><i class="fas fa-code"></span></i><span class="logo logo-left">HAN</span><span class="logo"> Coding</span></a></div>
@@ -38,18 +42,29 @@
         </div>
     </header>
     <main>
-        <div class="search-wrapper layout">
-            <h1>계정 찾기</h1>
-            <h2>아이디 혹은 비밀번호가 기억이 나지 않으신가요?</h2>
-            <div class="search-input-wrapper">
-                <div class="search-info">아이디 찾기</div>
-                <input type="text" autocomplete="off" placeholder="이메일 입력">
-                <button type="button">아이디 확인</button>
-                <div class="search-info">비밀번호 찾기</div>
-                <input type="text" placeholder="아이디 입력">
-                <input type="text" placeholder="이메일 입력">
-                <button type="button">비밀번호 찾기</button>
-            </div>
+        <div class="list-wrapper layout">
+            <h1>게시판</h1>
+            <h2>자유롭게 글을 작성해주세요!</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th class="article-num">글번호</th>
+                        <th class="article-title">제목</th>
+                        <th class="article-regdate">작성일자</th>
+                        <th class="article-writer">작성자</th>
+                        <th class="article-count">조회수</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="article-num">1</td>
+                        <td class="article-title">스프링이랑 스프링 부트 차이가 뭔가요?</td>
+                        <td class="article-regdate">2021-08-21</td>
+                        <td class="article-writer">한코딩</td>
+                        <td class="article-count">100</td>
+                    </tr>
+                </tbody>
+            </table>
         </div>
     </main>
     <footer>

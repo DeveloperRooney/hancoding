@@ -1,8 +1,10 @@
+/* 토스트 UI */
 
-
-.board-wrapper {
-    width: 80%;
+.toastui-editor-main {
+    font-family: inherit;
 }
+
+/* 글작성 페이지 */
 
 .board-write-wrapper{
 
