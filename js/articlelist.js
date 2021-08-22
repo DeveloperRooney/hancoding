@@ -49,3 +49,28 @@ window.addEventListener('resize', function() {
 
 }, true);
 
+
+
+
+// 게시판 타이틀 반응형
+
+window.onload = function() {
+    if(this.window.innerWidth <= 680) {
+        document.querySelector(".article-title").innerHTML = "게시글";
+
+    }
+}
+
+window.addEventListener('resize', function() {
+    if (this.window.innerWidth > 680) {
+        document.querySelector(".article-title").innerHTML = "제목";
+
+
+    }
+
+    if(this.window.innerWidth <= 680) {
+        document.querySelector(".article-title").innerHTML = "게시글";
+
+    }
+
+}, true);

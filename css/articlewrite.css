@@ -8,15 +8,6 @@
 
 .board-write-wrapper{
 
-    width: 100%;
-
-}
-
-
-@media screen and (max-width:600px) {
-    .board-wrapper {
-        width : 90%;
-    }
 }
 
 .board-write-wrapper input {

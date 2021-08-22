@@ -1,3 +1,8 @@
+
+document.cookie = 'same-site-cookie=foo; SameSite=Lax';
+document.cookie = 'cross-site-cookie=bar; SameSite=None; Secure';
+
+
 // SideNav 제어
 
 
@@ -11,6 +16,7 @@ function openSideNav() {
     document.querySelector(".sidenav").style.opacity = "1";
     document.querySelector(".sidenav").style.width = "120px";
     document.querySelector(".sidenav").style.zIndex = "1";
+    document.querySelector(".toastui-editor-defaultUI").style.zIndex = "-3";
 
 }
 
@@ -24,6 +30,7 @@ function closeSideNav() {
     document.querySelector(".sidenav").style.opacity = "0";
     document.querySelector(".sidenav").style.width = "0";
     document.querySelector(".sidenav").style.zIndex = "-1";
+    document.querySelector(".toastui-editor-defaultUI").style.zIndex = "1";
 
 }
 
@@ -36,6 +43,7 @@ window.addEventListener('resize', function() {
         document.querySelector(".sidenav").style.opacity = "0";
         document.querySelector(".sidenav").style.width = "0";
         document.querySelector(".sidenav").style.zIndex = "-1";
+        document.querySelector(".toastui-editor-defaultUI").style.zIndex = "1";
 
 
     }
@@ -48,4 +56,3 @@ window.addEventListener('resize', function() {
     }
 
 }, true);
-

@@ -55,9 +55,16 @@ h2{
     max-width: 920px;
 }
 
+
+@media screen and (max-width : 990px) {
+    .layout {
+        width : 90%;
+    }
+}
+
 @media screen and (max-width : 680px) {
     .layout {
-        width : 95%;
+        width : 94%;
     }
 }
 
@@ -70,7 +77,7 @@ h2{
 
 header {
     border-bottom: 1px solid rgb(226, 226, 226);
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .topmenu {
@@ -187,7 +194,7 @@ main {
 footer{
     border-top: 1px solid rgb(226, 226, 226);
     text-align: center;
-    margin-top: 18px;
+    margin-top: 30px;
 }
 
 footer span {
