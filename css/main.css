@@ -22,6 +22,10 @@
 
 body {
    font-family: 'LotteMartDream', sans-serif;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   height: 100vh;
 }
 
 h1 {

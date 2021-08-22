@@ -42,7 +42,7 @@ window.addEventListener('resize', function() {
 
     }
 
-    if((this.window.innerWidth < 680) &&
+    if((this.window.innerWidth <= 680) &&
         (document.querySelector(".sidenav").style.opacity == "0")) {
         document.querySelector(".ham-btn").style.opacity = "1";
         document.querySelector(".ham-btn").style.display = "block";

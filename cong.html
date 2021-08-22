@@ -13,8 +13,20 @@
     <script src="js/main.js"></script>
 
 
-    <title>한코딩 :: 회원가입</title>
+    <title>한코딩 :: 환영합니다!</title>
 </head>
+
+<style>
+    .cong-msg {
+        border: 1px solid #999;
+        border-radius: 4px;
+        padding : 40px;
+        font-weight: 400;
+        line-height: 24px;
+        margin-bottom: 20px;
+    }
+</style>
+
 <body>
     <header>
         <div class="layout topmenu">
@@ -41,20 +53,15 @@
     </header>
     <main>
         <div class="signup-wrapper layout">
-            <h1>회원가입</h1>
-            <h2>가입하시고 웹 개발 같이 배워요!</h2>
+            <h1>환영합니다!</h1>
+            <h2>같이 웹 개발하며 부족한 부분을 공유해요!</h2>
             <div class="signup-input-wrapper">
-                <input type="text" autocomplete="off" placeholder=" 아이디">
-                <div class="signup-info">* 영문자, 숫자 포함 6자리 이상!</div>
-                <input type="text" autocomplete="off" placeholder=" 닉네임">
-                <div class="signup-info">* 닉네임을 입력해 주세요!</div>
-                <input type="password" placeholder=" 비밀번호">
-                <div class="signup-info">* 영문자, 숫자 포함 8자리 이상!</div>
-                <input type="password" placeholder=" 비밀번호 확인">
-                <div class="signup-info">* 위에서 입력하신 비밀번호를 다시 입력해 주세요!</div>
-                <input type="email" placeholder=" 이메일">
-                <div class="signup-info">* 가입하신 후 메일을 꼭 확인해주세요!</div>
-                <button type="button">회원가입</button>
+                <div class="cong-msg">
+                    <p>가입 시 입력하신 메일로 인증 링크가 발송되었습니다.
+                        메일 인증 후 로그인이 가능하니 꼭 확인 후 인증해주세요!
+                    </p>
+                </div>
+                <button type="button">한코딩 메인으로</button>
             </div>
         </div>
     </main>
