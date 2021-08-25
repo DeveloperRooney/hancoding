@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/articleview.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <script src="js/main.js"></script>
+
+    <title>한코딩 :: 게시글</title>
+</head>
+
+
+<body>
+
+
+    <header>
+        <div class="layout topmenu">
+            <div><a href="index.html"><span class="logo mark"><i class="fas fa-code"></span></i><span class="logo logo-left">HAN</span><span class="logo"> Coding</span></a></div>
+
+            <div></div>
+            <div class="right-menu">
+                <ul>
+                    <li><a href="#">강의</a></li>
+                    <li><a href="articlelist.html">게시판</a></li>
+                    <li><a href="login.html">로그인</a></li>
+                </ul>
+            </div>
+            <div class="ham-btn" id="ham-btn">
+                <a href="javascript:openSideNav()"><i class="fas fa-bars"></i></a>
+            </div>
+        </div>
+        <div class="sidenav" id="sidenav">
+            <a href="javascript:closeSideNav()">&times;</a>
+            <a href="#">강의</a>
+            <a href="articlelist.html">게시판</a>
+            <a href="login.html">로그인</a>
+        </div>
+    </header>
+    <main>
+        <div class="view-wrapper layout">
+            <h1>게시글</h1>
+            <h2>자유롭게 글을 작성해주세요!</h2>
+            
+            <div class="board-select">
+                <div class="page-info">
+                    <i class="far fa-file"></i> 글번호 1234
+                </div>
+                <div class="board-select-right">
+                    <a  class= "write-btn" href="articlemodify.html"><i class="far fa-edit"></i> 글수정</a>
+                    <a  class= "write-btn" href="#"><i class="far fa-edit"></i> 글삭제</a>
+                </div>
+            </div>
+      
+            <div class="article-view">
+                <div class="title">
+                    게시판 이용 공지
+                </div>
+                <div class="article-info">
+                    <i class="far fa-user"></i> 관리자 / <i class="far fa-clock"></i> 2021-08-21  / <i class="far fa-eye"></i> 100 / <i class="far fa-thumbs-up"></i> 30
+                </div>
+            </div>
+            <div class="article-content">
+                <p>안녕하세요. 한코딩 페이지 관리자입니다. 해당 글은 게시글 상세 페이지 디자인 및 테스트용으로 생성된 페이지입니다. 현재 모든 글의 작성, 수정 및 삭제 기능이 이뤄지고 있지 않습니다.</p>
+            </div>
+
+        </div>
+    </main>
+    <footer>
+        <span>copyright 2021 한코딩. all rights reserved.</span>
+    </footer>
+</body>
+</html>

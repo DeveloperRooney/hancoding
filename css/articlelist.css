@@ -18,20 +18,26 @@
 }
 
 .board-select select{
-    padding : 6px 5px;
+    background-color: white;
+    padding : 6px;
     width: 80px;
     text-align: center;
     border-radius: 4px;
     box-sizing: border-box;
+    border: 1px solid #666;
+    color: #555;
+    
 }
 
-.board-select a {
+.write-btn {
     padding: 7.3px 5px;
     font-size: 14px;
     border:  1px solid #666;
     border-radius: 4px;
     color: #555;
     box-sizing: border-box;
+    display: flex;
+    align-items: center;
 }
 
 .list-wrapper ul li{
@@ -41,6 +47,11 @@
     display: flex;
     font-weight: 300;
     border-bottom : 1px solid rgb(196, 194, 194);
+    
+}
+
+.list-wrapper ul li:hover{
+    background-color: #4b7c8113;
     
 }
 
@@ -86,6 +97,32 @@
     text-align: left;
 }
 
+.search {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.search input {
+    padding : 9px 4px;
+    width: 280px;
+    border: 1px solid #4b7c81;
+    border-radius: 4px;
+    border-right: none;
+    font-family: inherit;
+    font-weight: 200;
+}
+
+.search button {
+    background-color: #4b7c81;
+    border: none;
+    border-radius: 0px  4px 4px 0px;
+    padding : 10.1px 8px;
+    color: white;
+    font-family: inherit;
+    margin-left: -5px;
+}
 
 @media screen and (max-width : 680px) {
 
@@ -133,5 +170,14 @@
         font-size: 13px;
         color : #333;
         font-weight: 300;
+    }
+
+    .search-left {
+        width: 60%;
+        text-align: left;
+    }
+
+    .search input {
+        width: 80%;
     }
 }
