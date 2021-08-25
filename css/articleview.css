@@ -58,10 +58,64 @@
     font-size: 14px;
 }
 
+.article-content-wrapper {
+    border-bottom: 1px solid #4b7c81a6;
+}
+
 .article-content {
-    padding : 20px 20px;
+    padding : 20px 10px;
     font-weight: 200;
+    font-size: 15px;
     min-height: 300px;
     line-height: 24px;
-    border-bottom: 1px solid #4b7c81a6;
+}
+
+.thumps-up {
+    text-align: center;
+    padding : 24px 0;
+}
+
+.thumps-up a {
+    font-size: 16px;
+    display: inline-block;
+    border: 1px solid #555;
+    padding : 6px 6px;
+    border-radius: 4px;
+}
+
+.comment-wrapper {
+    margin : 15px 0;
+    font-weight: 200;
+    font-size: 15px;
+}
+
+.comment-count {
+    font-weight: 500;
+}
+
+.comment-write-wrapper {
+    padding : 10px 0;
+    margin : 5px 0;
+    min-height: 100px;
+    /* border: 1px solid #4b7c81a6; */
+}
+
+.comment-write-wrapper > ul > li {
+
+    margin-bottom: 20px;
+}
+
+
+.comment-writer {
+    margin: 10px 0;
+    font-weight: 500;
+}
+
+.comment-regdate {
+    font-size: 14px;
+    margin : 0 10px;
+}
+
+.comment-icons {
+    margin-right: 10px;
 }
