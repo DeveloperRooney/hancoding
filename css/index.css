@@ -2,6 +2,27 @@
 
 }
 
+h1 {
+    text-align: center;
+}
+
+
+.main-img {
+    background-image: url('../img/mainimg.jpg');
+    background-position: center;
+    min-height: 240px;
+    height: 25vw;
+    max-height: 300px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.main-img h1 {
+    text-align: left;
+    color: white;
+}
 
 .board-select {
     display: flex;
@@ -140,7 +161,6 @@
     border : 1px solid rgb(219, 219, 219);
     vertical-align: top;
 }
-
 
 
 
